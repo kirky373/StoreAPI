@@ -15,6 +15,9 @@ namespace API.Models
         [MaxLength(250)]
         public string ItemName { get; set; }
         [Required]
+        [MaxLength(250)]
+        public string TagName { get; set; }
+        [Required]
         public double Price { get; set; }
         [Required]
         public int Stock { get; set; }

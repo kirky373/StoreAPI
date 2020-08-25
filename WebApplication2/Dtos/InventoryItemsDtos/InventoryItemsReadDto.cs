@@ -8,6 +8,7 @@ namespace API.Dtos.InventoryItemsDtos
     public class InventoryItemsReadDto { 
             public int Id { get; set; }
             public string ItemName { get; set; }
+            public string TagName { get; set; }
             public double Price { get; set; }
     }
 }

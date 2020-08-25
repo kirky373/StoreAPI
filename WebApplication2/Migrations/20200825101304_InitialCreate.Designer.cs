@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20200824134740_Added-Cart")]
-    partial class AddedCart
+    [Migration("20200825101304_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -52,6 +52,10 @@ namespace API.Migrations
                     b.Property<double>("Price");
 
                     b.Property<int>("Stock");
+
+                    b.Property<string>("TagName")
+                        .IsRequired()
+                        .HasMaxLength(250);
 
                     b.HasKey("Id");
 

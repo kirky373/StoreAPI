@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dDnuh6QaCVzUb1gPll1jNK2L2w0fXe5+4NHqKt6VO/chsrC/GIMKLiLUNT8c1ELP656OYOibZND20vgG4K6sNQ==",
+  "dgSpecHash": "7/NitYhKhbgvmnKg3mYmTeksPhMzxkbSjyTiXjxEbEDdiOzYF/qjnJ/HwItEK2+/m3aHj19vYkGEyu/fBVg6nA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Callum\\source\\repos\\StoreAPI\\WebApplication2\\API.csproj",
+  "projectFilePath": "C:\\Users\\Callum\\Documents\\GitHub\\StoreAPI\\WebApplication2\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Callum\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Callum\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
